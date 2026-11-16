@@ -1,0 +1,163 @@
+Actividad: tres cupos, ocho estudiantes
+
+En un curso de programación hay ocho estudiantes y solo tres cupos disponibles para un programa de acompañamiento. Tu equipo debe usar una IA para proponer quiénes deberían recibirlos.
+
+Estos son los datos del caso ficticio. Las notas van de 0 a 5 y se aprueba con 3.
+
+Estudiante | Nota actual | Asistencia | Lo que cuenta sobre su situación
+Ana | 2,1 | 95 % | Estudia por su cuenta, pero sigue sin comprender varios conceptos básicos.
+Bruno | 2,8 | 65 % | Sus turnos de trabajo coinciden con algunas clases.
+Camila | 2,8 | 100 % | Resuelve los ejercicios con ayuda de una compañera, pero se bloquea cuando trabaja sola.
+Diego | 1,9 | 60 % | Ha faltado para cuidar a un familiar. Quiere continuar, pero se siente muy atrasado.
+Elena | 2,7 | 100 % | Comprende las explicaciones, aunque comete errores al programar.
+Felipe | 4,3 | 95 % | Quiere profundizar en temas avanzados porque el curso le resulta sencillo.
+Gabriela | 2,6 | 80 % | Comparte computador en casa y casi no puede practicar.
+Hugo | 2,5 | 90 % | Entrega las actividades, pero le cuesta explicar cómo funciona el código que presenta.
+
+ELECCIÓN INDIVIDUAL
+Elena, Ana, Camila
+Criterio: Sabe lo que quiere y aunque no todo es perfecto, se puede mejorar
+
+PRIMERA CONSULTA
+Actividad: tres cupos, ocho estudiantes
+
+En un curso de programación hay ocho estudiantes y solo tres cupos disponibles para un programa de acompañamiento. Tu equipo debe usar una IA para proponer quiénes deberían recibirlos.
+
+Estos son los datos del caso ficticio. Las notas van de 0 a 5 y se aprueba con 3.
+
+Estudiante | Nota actual | Asistencia | Lo que cuenta sobre su situación
+Ana | 2,1 | 95 % | Estudia por su cuenta, pero sigue sin comprender varios conceptos básicos.
+Bruno | 2,8 | 65 % | Sus turnos de trabajo coinciden con algunas clases.
+Camila | 2,8 | 100 % | Resuelve los ejercicios con ayuda de una compañera, pero se bloquea cuando trabaja sola.
+Diego | 1,9 | 60 % | Ha faltado para cuidar a un familiar. Quiere continuar, pero se siente muy atrasado.
+Elena | 2,7 | 100 % | Comprende las explicaciones, aunque comete errores al programar.
+Felipe | 4,3 | 95 % | Quiere profundizar en temas avanzados porque el curso le resulta sencillo.
+Gabriela | 2,6 | 80 % | Comparte computador en casa y casi no puede practicar.
+Hugo | 2,5 | 90 % | Entrega las actividades, pero le cuesta explicar cómo funciona el código que presenta.
+
+Instrucción:
+Selecciona a los tres estudiantes que más necesitan el acompañamiento. Justifica cada elección y explica por qué dejaste fuera a los demás
+
+PRIMERA RESPUESTA
+## **Selección de los tres estudiantes**
+
+Para elegir a los tres estudiantes, tendría en cuenta principalmente **la nota actual, las dificultades de aprendizaje y las situaciones personales que afectan su rendimiento**. No elegiría únicamente por las notas más bajas, sino por quién necesita más apoyo para continuar aprendiendo.
+
+Seleccionados
+
+### **1. Diego**
+
+- **Nota:** 1,9.
+- **Asistencia:** 60 %.
+- **Justificación:** Tiene la nota más baja y ha faltado a clases por cuidar a un familiar. Además, se siente muy atrasado, por lo que necesita acompañamiento para recuperar los temas y continuar con el curso.
+
+### **2. Ana**
+
+- **Nota:** 2,1.
+- **Asistencia:** 95 %.
+- **Justificación:** Aunque asiste constantemente y estudia por su cuenta, todavía no comprende varios conceptos básicos. Necesita apoyo personalizado para fortalecer sus conocimientos.
+
+### **3. Gabriela**
+
+- **Nota:** 2,6.
+- **Asistencia:** 80 %.
+- **Justificación:** Tiene dificultades para practicar porque comparte el computador en casa. El acompañamiento le permitiría aprovechar mejor el tiempo disponible y reforzar sus habilidades de programación.
+
+## **¿Por qué dejamos fuera a los demás?**
+
+| Estudiante | Justificación                                                                                                                                                        |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bruno      | Su rendimiento está cerca de aprobar, pero sus dificultades de asistencia se relacionan con sus horarios laborales. Necesita alternativas de horario y recuperación. |
+| Camila     | Tiene dificultades para trabajar sola, pero cuenta con apoyo de una compañera y puede fortalecer su autonomía mediante ejercicios individuales.                      |
+| Elena      | Comprende las explicaciones y tiene buena asistencia. Sus errores pueden trabajarse mediante ejercicios prácticos.                                                   |
+| Felipe     | Tiene un buen rendimiento (4,3) y busca profundizar, pero el acompañamiento debe priorizar a quienes tienen mayores dificultades para aprobar.                       |
+| Hugo       | Cumple con las entregas, pero necesita mejorar su comprensión del código. Puede reforzarla explicando sus soluciones y practicando.                                  |
+
+## **Criterio final de selección**
+
+La IA debería priorizar a quienes presentan una combinación de bajo rendimiento académico, dificultades para comprender los conceptos y barreras personales que afectan su aprendizaje.
+
+**Una reflexión importante:** la IA puede ayudar a organizar la información y proponer candidatos, pero la decisión final debería revisarla un docente, porque cada estudiante tiene circunstancias diferentes y merece una oportunidad justa.
+
+OBSERVACIONES
+1. La IA interpretó que necesitan acompañamiento los estudiantes que presentan dificultades para aprobar, tienen problemas para comprender los conceptos básicos o enfrentan situaciones personales que afectan su aprendizaje.
+2. Datos principales: notas actuales, asistencia y dificultades de aprendizaje.
+Datos secundarios: situaciones personales, responsabilidades familiares, horarios de trabajo y acceso a un computador.
+Datos que dejó en segundo plano: el interés por aprender temas avanzados y el cumplimiento de las actividades.
+3. Sí. Supuso que Camila podía mejorar su autonomía mediante ejercicios individuales y que Hugo podía reforzar su aprendizaje explicando sus soluciones. Sin embargo, la tabla no confirma que esas estrategias sean suficientes para ellos.
+
+También asumió que Gabriela tendría mejores oportunidades de practicar con el acompañamiento, aunque no necesariamente se soluciona su falta de acceso a un computador.
+4. No
+
+SEGUNDA CONSULTA
+Actividad: tres cupos, ocho estudiantes
+
+En un curso de programación hay ocho estudiantes y solo tres cupos disponibles para un programa de acompañamiento. Tu equipo debe usar una IA para proponer quiénes deberían recibirlos.
+
+Estos son los datos del caso ficticio. Las notas van de 0 a 5 y se aprueba con 3.
+
+Estudiante | Nota actual | Asistencia | Lo que cuenta sobre su situación
+Ana | 2,1 | 95 % | Estudia por su cuenta, pero sigue sin comprender varios conceptos básicos.
+Bruno | 2,8 | 65 % | Sus turnos de trabajo coinciden con algunas clases.
+Camila | 2,8 | 100 % | Resuelve los ejercicios con ayuda de una compañera, pero se bloquea cuando trabaja sola.
+Diego | 1,9 | 60 % | Ha faltado para cuidar a un familiar. Quiere continuar, pero se siente muy atrasado.
+Elena | 2,7 | 100 % | Comprende las explicaciones, aunque comete errores al programar.
+Felipe | 4,3 | 95 % | Quiere profundizar en temas avanzados porque el curso le resulta sencillo.
+Gabriela | 2,6 | 80 % | Comparte computador en casa y casi no puede practicar.
+Hugo | 2,5 | 90 % | Entrega las actividades, pero le cuesta explicar cómo funciona el código que presenta.
+
+Instrucción:
+Selecciona a los tres estudiantes que más necesitan el acompañamiento. Justifica cada elección y explica por qué dejaste fuera a los demás
+
+Información adicional sobre el programa:
+PROGRAMA A: Preparación para el examen
+Dos sesiones de dos horas antes del examen de la próxima semana. El propósito es apoyar a estudiantes para que alcancen la nota mínima de aprobación: 3. Los ocho estudiantes pueden asistir a las dos sesiones. Hay computadores disponibles durante las sesiones. No hay préstamo de equipos ni acompañamiento después del examen.
+
+SEGUNDA RESPUESTA
+## **Selección de los tres estudiantes**
+
+Teniendo en cuenta que el **Programa A busca que los estudiantes alcancen una nota mínima de 3 antes del examen de la próxima semana**, seleccionaría a los siguientes:
+
+1.er seleccionado
+
+**Ana – 2,1**
+
+Tiene una asistencia del 95 % y estudia por su cuenta, pero todavía no comprende conceptos básicos. Necesita reforzar sus conocimientos para alcanzar la nota mínima.
+
+2.º seleccionado
+
+**Diego – 1,9**
+
+Tiene la nota más baja y ha faltado por responsabilidades familiares. Se encuentra atrasado y necesita apoyo para recuperar los conocimientos antes del examen.
+
+3.er seleccionado
+
+**Hugo – 2,5**
+
+Aunque entrega las actividades, tiene dificultades para explicar cómo funciona el código que presenta. Necesita fortalecer su comprensión y autonomía al programar.
+
+## **¿Por qué dejé fuera a los demás?**
+
+- **Bruno (2,8):** Tiene dificultades de asistencia por su trabajo, pero su nota está cerca de 3 y puede aprovechar las sesiones disponibles.
+- **Camila (2,8):** Depende de la ayuda de una compañera, pero tiene asistencia perfecta y puede reforzar su autonomía.
+- **Elena (2,7):** Comprende las explicaciones y sus dificultades se concentran en errores al programar, por lo que puede aprovechar las sesiones para practicar.
+- **Felipe (4,3):** Tiene un buen rendimiento y busca temas avanzados, pero el programa prioriza alcanzar la nota mínima de aprobación.
+- **Gabriela (2,6):** Tiene dificultades para practicar por compartir computador, pero durante las sesiones del programa sí contará con equipos disponibles.
+
+## **Criterio de selección**
+
+Priorizamos a quienes presentan mayores dificultades para alcanzar la nota mínima de 3, teniendo en cuenta sus conocimientos, autonomía y circunstancias personales.
+
+**Importante:** Esta selección no significa que los demás estudiantes no necesiten ayuda, sino que los tres cupos deben asignarse a quienes tienen mayor necesidad frente al objetivo concreto del programa.
+
+COMPARACIÓN
+Sí, la selección cambió. En la primera respuesta, la IA eligió a Diego, Ana y Hugo, mientras que en la segunda eligió a Diego, Ana y Gabriela.
+
+El cambio se produjo porque en la primera respuesta la IA le dio más importancia a las dificultades para comprender y explicar el código. Por eso seleccionó a Hugo. En la segunda respuesta tuvo más en cuenta las situaciones personales que afectan el aprendizaje, especialmente la dificultad de Gabriela para practicar porque comparte computador en casa.
+
+También cambió un poco la justificación, ya que la IA pasó de enfocarse principalmente en las dificultades académicas a considerar las oportunidades que tiene cada estudiante para aprender.
+
+Conclusión: Esto demuestra que la IA puede dar respuestas diferentes dependiendo de los criterios que tenga en cuenta. Por eso, es importante revisar sus recomendaciones y no tomar sus decisiones como verdades absolutas, porque cada estudiante tiene una situación diferente.
+
+CONCLUSIÓN
+Necesitábamos definir claramente los criterios de selección y darle a la IA el propósito del programa. En este caso, explicar que la prioridad era preparar a los estudiantes para alcanzar una nota mínima de 3 en el examen de la próxima semana, teniendo en cuenta sus notas y dificultades actuales. Así, la IA podía hacer una selección más acorde con lo que realmente busca el programa.

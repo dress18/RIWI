@@ -1,0 +1,407 @@
+/* Variables */
+:root {
+    --color-route-green: #1E7A4F;
+    --color-pedal-orange: #F39A2B;
+    --color-night-blue: #14213D;
+    --color-cream: #FAF6EF;
+    --color-asphalt-gray: #5B6470;
+    --color-white: #FFFFFF;
+    --font-heading: "Montserrat", sans-serif;
+    --font-body: "Open Sans", sans-serif;
+    --space-1: 0.5rem;
+    --space-2: 1rem;
+    --space-3: 1.5rem;
+    --space-4: 2rem;
+    --space-5: 3rem;
+}
+
+/* Base */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding-bottom: calc(var(--space-5) + var(--space-2));
+    background-color: var(--color-cream);
+    color: var(--color-night-blue);
+    font-family: var(--font-body);
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-night-blue);
+    font-family: var(--font-heading);
+    font-weight: 700;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header,
+footer {
+    background-color: var(--color-night-blue);
+    color: var(--color-white);
+    padding: var(--space-2);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+}
+
+header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    flex-direction: column;
+}
+
+header :is(h1, h2, h3, h4, h5, h6),
+footer :is(h1, h2, h3, h4, h5, h6) {
+    color: var(--color-white);
+}
+
+a {
+    color: var(--color-route-green);
+}
+
+header a,
+footer a {
+    color: var(--color-white);
+}
+
+#menu {
+    background-color: var(--color-cream);
+    list-style: none;
+    margin: 0;
+    padding: var(--space-1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-1);
+}
+
+#menu a {
+    color: var(--color-asphalt-gray);
+    padding: var(--space-1);
+}
+
+.activo {
+    color: var(--color-route-green);
+    font-weight: 600;
+}
+
+#menu a.activo {
+    color: var(--color-route-green);
+}
+
+#menu a:hover {
+    background-color: var(--color-route-green);
+    color: var(--color-white);
+}
+
+#menu a:focus {
+    background-color: var(--color-night-blue);
+    color: var(--color-white);
+    outline: 0.1875rem solid var(--color-night-blue);
+    outline-offset: 0.125rem;
+}
+
+main {
+    width: 100%;
+    max-width: 70rem;
+    margin-inline: auto;
+    padding-inline: var(--space-2);
+}
+
+#quienes-somos {
+    min-height: 70vh;
+}
+
+#servicios article {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-block: var(--space-2);
+    padding: var(--space-2);
+    border: 1px solid var(--color-asphalt-gray);
+    border-radius: var(--space-1);
+}
+
+.servicio-electrico h3 {
+    max-width: calc(100% - 5rem);
+}
+
+.etiqueta-nuevo {
+    position: absolute;
+    top: var(--space-2);
+    right: var(--space-2);
+    padding: var(--space-1);
+    background-color: var(--color-pedal-orange);
+    color: var(--color-night-blue);
+    font-weight: 600;
+}
+
+#servicios article img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.cuadricula-flota {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: var(--space-3);
+}
+
+#flota article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: var(--space-2);
+    border: 1px solid var(--color-asphalt-gray);
+    border-radius: var(--space-1);
+}
+
+#flota article img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#flota article .cta-reserva {
+    align-self: flex-start;
+    margin-top: auto;
+}
+
+#quienes-somos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+}
+
+#quienes-somos img {
+    width: 100%;
+    height: auto;
+}
+
+.galeria-rutas {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+}
+
+.galeria-rutas figure {
+    margin: 0;
+    padding: var(--space-2);
+    border: 1px solid var(--color-asphalt-gray);
+    border-radius: var(--space-1);
+}
+
+.galeria-rutas img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.layout-reservas {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+}
+
+.fila-formulario {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+}
+
+.fila-formulario p {
+    flex: 1 1 12rem;
+}
+
+table {
+    width: 100%;
+    margin-block: var(--space-2);
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 0.25rem;
+    font-size: 0.75rem;
+    border: 1px solid var(--color-night-blue);
+    text-align: left;
+}
+
+thead {
+    background-color: var(--color-night-blue);
+    color: var(--color-white);
+}
+
+.cta-reserva,
+.enlace-whatsapp,
+button {
+    display: inline-block;
+    padding: var(--space-1) var(--space-2);
+    background-color: var(--color-route-green);
+    color: var(--color-white);
+    font-family: var(--font-body);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.enlace-whatsapp {
+    position: fixed;
+    right: var(--space-2);
+    bottom: var(--space-2);
+    z-index: 10;
+}
+
+.cta-reserva:hover,
+.cta-reserva:focus,
+.enlace-whatsapp:hover,
+.enlace-whatsapp:focus,
+button:hover,
+button:focus {
+    background-color: var(--color-night-blue);
+    color: var(--color-white);
+    text-decoration: underline;
+}
+
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 0.1875rem solid var(--color-night-blue);
+    outline-offset: 0.125rem;
+}
+
+header .cta-reserva:focus,
+header > p a:focus,
+footer a:focus,
+.enlace-whatsapp:focus {
+    outline-color: var(--color-cream);
+}
+
+/* Formulario */
+form fieldset {
+    margin-block-end: var(--space-3);
+    padding: var(--space-2);
+    border: 1px solid var(--color-asphalt-gray);
+}
+
+form p {
+    margin-block: var(--space-2);
+}
+
+form label {
+    display: block;
+    margin-block-end: var(--space-1);
+}
+
+form input:not([type="radio"]):not([type="checkbox"]),
+form select,
+form textarea {
+    display: block;
+    width: 100%;
+    padding: var(--space-1);
+    border: 1px solid var(--color-night-blue);
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+    display: inline-block;
+}
+
+form input[type="radio"] + label,
+form input[type="checkbox"] + label {
+    display: inline-block;
+}
+
+form button {
+    padding: var(--space-2) var(--space-3);
+    border: 1px solid var(--color-route-green);
+}
+
+strong,
+label,
+th {
+    font-weight: 600;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: start;
+    }
+
+    header nav {
+        margin-inline-start: auto;
+    }
+
+    #menu {
+        justify-content: flex-start;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    footer > div {
+        flex: 1 1 15rem;
+    }
+
+    #quienes-somos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--space-4);
+        align-items: center;
+    }
+
+    .galeria-rutas {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .layout-reservas {
+        grid-template-columns: 2fr 1fr;
+        align-items: start;
+    }
+
+    th,
+    td {
+        padding: var(--space-1);
+        font-size: 1rem;
+    }
+}
+
+/* Escritorio */
+@media (min-width: 1200px) {
+    header,
+    footer {
+        padding-inline: var(--space-4);
+    }
+
+    #quienes-somos {
+        gap: var(--space-5);
+    }
+
+    .galeria-rutas {
+        gap: var(--space-4);
+    }
+}
